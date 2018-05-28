@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA77AD5B20BBD858002656F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA77AD5A20BBD858002656F3 /* AppDelegate.m */; };
+		CA77AD5E20BBD858002656F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA77AD5D20BBD858002656F3 /* ViewController.m */; };
+		CA77AD6120BBD858002656F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA77AD5F20BBD858002656F3 /* Main.storyboard */; };
+		CA77AD6320BBD859002656F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA77AD6220BBD859002656F3 /* Assets.xcassets */; };
+		CA77AD6620BBD859002656F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA77AD6420BBD859002656F3 /* LaunchScreen.storyboard */; };
+		CA77AD6920BBD859002656F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA77AD6820BBD859002656F3 /* main.m */; };
+		CA77AD7320BBD85A002656F3 /* PictureStereoscopicDisplayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA77AD7220BBD85A002656F3 /* PictureStereoscopicDisplayTests.m */; };
+		CA77AD7E20BBD85A002656F3 /* PictureStereoscopicDisplayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA77AD7D20BBD85A002656F3 /* PictureStereoscopicDisplayUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA77AD6F20BBD85A002656F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA77AD4E20BBD858002656F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA77AD5520BBD858002656F3;
+			remoteInfo = PictureStereoscopicDisplay;
+		};
+		CA77AD7A20BBD85A002656F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA77AD4E20BBD858002656F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA77AD5520BBD858002656F3;
+			remoteInfo = PictureStereoscopicDisplay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA77AD5620BBD858002656F3 /* PictureStereoscopicDisplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PictureStereoscopicDisplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA77AD5920BBD858002656F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA77AD5A20BBD858002656F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA77AD5C20BBD858002656F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA77AD5D20BBD858002656F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA77AD6020BBD858002656F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA77AD6220BBD859002656F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA77AD6520BBD859002656F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA77AD6720BBD859002656F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA77AD6820BBD859002656F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA77AD6E20BBD85A002656F3 /* PictureStereoscopicDisplayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PictureStereoscopicDisplayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA77AD7220BBD85A002656F3 /* PictureStereoscopicDisplayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureStereoscopicDisplayTests.m; sourceTree = "<group>"; };
+		CA77AD7420BBD85A002656F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA77AD7920BBD85A002656F3 /* PictureStereoscopicDisplayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PictureStereoscopicDisplayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA77AD7D20BBD85A002656F3 /* PictureStereoscopicDisplayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureStereoscopicDisplayUITests.m; sourceTree = "<group>"; };
+		CA77AD7F20BBD85A002656F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA77AD5320BBD858002656F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA77AD6B20BBD85A002656F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA77AD7620BBD85A002656F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA77AD4D20BBD858002656F3 = {
+			isa = PBXGroup;
+			children = (
+				CA77AD5820BBD858002656F3 /* PictureStereoscopicDisplay */,
+				CA77AD7120BBD85A002656F3 /* PictureStereoscopicDisplayTests */,
+				CA77AD7C20BBD85A002656F3 /* PictureStereoscopicDisplayUITests */,
+				CA77AD5720BBD858002656F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA77AD5720BBD858002656F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA77AD5620BBD858002656F3 /* PictureStereoscopicDisplay.app */,
+				CA77AD6E20BBD85A002656F3 /* PictureStereoscopicDisplayTests.xctest */,
+				CA77AD7920BBD85A002656F3 /* PictureStereoscopicDisplayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA77AD5820BBD858002656F3 /* PictureStereoscopicDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				CA77AD5920BBD858002656F3 /* AppDelegate.h */,
+				CA77AD5A20BBD858002656F3 /* AppDelegate.m */,
+				CA77AD5C20BBD858002656F3 /* ViewController.h */,
+				CA77AD5D20BBD858002656F3 /* ViewController.m */,
+				CA77AD5F20BBD858002656F3 /* Main.storyboard */,
+				CA77AD6220BBD859002656F3 /* Assets.xcassets */,
+				CA77AD6420BBD859002656F3 /* LaunchScreen.storyboard */,
+				CA77AD6720BBD859002656F3 /* Info.plist */,
+				CA77AD6820BBD859002656F3 /* main.m */,
+			);
+			path = PictureStereoscopicDisplay;
+			sourceTree = "<group>";
+		};
+		CA77AD7120BBD85A002656F3 /* PictureStereoscopicDisplayTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA77AD7220BBD85A002656F3 /* PictureStereoscopicDisplayTests.m */,
+				CA77AD7420BBD85A002656F3 /* Info.plist */,
+			);
+			path = PictureStereoscopicDisplayTests;
+			sourceTree = "<group>";
+		};
+		CA77AD7C20BBD85A002656F3 /* PictureStereoscopicDisplayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA77AD7D20BBD85A002656F3 /* PictureStereoscopicDisplayUITests.m */,
+				CA77AD7F20BBD85A002656F3 /* Info.plist */,
+			);
+			path = PictureStereoscopicDisplayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA77AD5520BBD858002656F3 /* PictureStereoscopicDisplay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA77AD8220BBD85A002656F3 /* Build configuration list for PBXNativeTarget "PictureStereoscopicDisplay" */;
+			buildPhases = (
+				CA77AD5220BBD858002656F3 /* Sources */,
+				CA77AD5320BBD858002656F3 /* Frameworks */,
+				CA77AD5420BBD858002656F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PictureStereoscopicDisplay;
+			productName = PictureStereoscopicDisplay;
+			productReference = CA77AD5620BBD858002656F3 /* PictureStereoscopicDisplay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA77AD6D20BBD85A002656F3 /* PictureStereoscopicDisplayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA77AD8520BBD85A002656F3 /* Build configuration list for PBXNativeTarget "PictureStereoscopicDisplayTests" */;
+			buildPhases = (
+				CA77AD6A20BBD85A002656F3 /* Sources */,
+				CA77AD6B20BBD85A002656F3 /* Frameworks */,
+				CA77AD6C20BBD85A002656F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA77AD7020BBD85A002656F3 /* PBXTargetDependency */,
+			);
+			name = PictureStereoscopicDisplayTests;
+			productName = PictureStereoscopicDisplayTests;
+			productReference = CA77AD6E20BBD85A002656F3 /* PictureStereoscopicDisplayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA77AD7820BBD85A002656F3 /* PictureStereoscopicDisplayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA77AD8820BBD85A002656F3 /* Build configuration list for PBXNativeTarget "PictureStereoscopicDisplayUITests" */;
+			buildPhases = (
+				CA77AD7520BBD85A002656F3 /* Sources */,
+				CA77AD7620BBD85A002656F3 /* Frameworks */,
+				CA77AD7720BBD85A002656F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA77AD7B20BBD85A002656F3 /* PBXTargetDependency */,
+			);
+			name = PictureStereoscopicDisplayUITests;
+			productName = PictureStereoscopicDisplayUITests;
+			productReference = CA77AD7920BBD85A002656F3 /* PictureStereoscopicDisplayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA77AD4E20BBD858002656F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = CYL;
+				TargetAttributes = {
+					CA77AD5520BBD858002656F3 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					CA77AD6D20BBD85A002656F3 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = CA77AD5520BBD858002656F3;
+					};
+					CA77AD7820BBD85A002656F3 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = CA77AD5520BBD858002656F3;
+					};
+				};
+			};
+			buildConfigurationList = CA77AD5120BBD858002656F3 /* Build configuration list for PBXProject "PictureStereoscopicDisplay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA77AD4D20BBD858002656F3;
+			productRefGroup = CA77AD5720BBD858002656F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA77AD5520BBD858002656F3 /* PictureStereoscopicDisplay */,
+				CA77AD6D20BBD85A002656F3 /* PictureStereoscopicDisplayTests */,
+				CA77AD7820BBD85A002656F3 /* PictureStereoscopicDisplayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA77AD5420BBD858002656F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA77AD6620BBD859002656F3 /* LaunchScreen.storyboard in Resources */,
+				CA77AD6320BBD859002656F3 /* Assets.xcassets in Resources */,
+				CA77AD6120BBD858002656F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA77AD6C20BBD85A002656F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA77AD7720BBD85A002656F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA77AD5220BBD858002656F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA77AD5E20BBD858002656F3 /* ViewController.m in Sources */,
+				CA77AD6920BBD859002656F3 /* main.m in Sources */,
+				CA77AD5B20BBD858002656F3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA77AD6A20BBD85A002656F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA77AD7320BBD85A002656F3 /* PictureStereoscopicDisplayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA77AD7520BBD85A002656F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA77AD7E20BBD85A002656F3 /* PictureStereoscopicDisplayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA77AD7020BBD85A002656F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA77AD5520BBD858002656F3 /* PictureStereoscopicDisplay */;
+			targetProxy = CA77AD6F20BBD85A002656F3 /* PBXContainerItemProxy */;
+		};
+		CA77AD7B20BBD85A002656F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA77AD5520BBD858002656F3 /* PictureStereoscopicDisplay */;
+			targetProxy = CA77AD7A20BBD85A002656F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA77AD5F20BBD858002656F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA77AD6020BBD858002656F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA77AD6420BBD859002656F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA77AD6520BBD859002656F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA77AD8020BBD85A002656F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA77AD8120BBD85A002656F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA77AD8320BBD85A002656F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73AV8S2YU9;
+				INFOPLIST_FILE = PictureStereoscopicDisplay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CYL.PictureStereoscopicDisplay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA77AD8420BBD85A002656F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73AV8S2YU9;
+				INFOPLIST_FILE = PictureStereoscopicDisplay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CYL.PictureStereoscopicDisplay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA77AD8620BBD85A002656F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73AV8S2YU9;
+				INFOPLIST_FILE = PictureStereoscopicDisplayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CYL.PictureStereoscopicDisplayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PictureStereoscopicDisplay.app/PictureStereoscopicDisplay";
+			};
+			name = Debug;
+		};
+		CA77AD8720BBD85A002656F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73AV8S2YU9;
+				INFOPLIST_FILE = PictureStereoscopicDisplayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CYL.PictureStereoscopicDisplayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PictureStereoscopicDisplay.app/PictureStereoscopicDisplay";
+			};
+			name = Release;
+		};
+		CA77AD8920BBD85A002656F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73AV8S2YU9;
+				INFOPLIST_FILE = PictureStereoscopicDisplayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CYL.PictureStereoscopicDisplayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PictureStereoscopicDisplay;
+			};
+			name = Debug;
+		};
+		CA77AD8A20BBD85A002656F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73AV8S2YU9;
+				INFOPLIST_FILE = PictureStereoscopicDisplayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CYL.PictureStereoscopicDisplayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PictureStereoscopicDisplay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA77AD5120BBD858002656F3 /* Build configuration list for PBXProject "PictureStereoscopicDisplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA77AD8020BBD85A002656F3 /* Debug */,
+				CA77AD8120BBD85A002656F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA77AD8220BBD85A002656F3 /* Build configuration list for PBXNativeTarget "PictureStereoscopicDisplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA77AD8320BBD85A002656F3 /* Debug */,
+				CA77AD8420BBD85A002656F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA77AD8520BBD85A002656F3 /* Build configuration list for PBXNativeTarget "PictureStereoscopicDisplayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA77AD8620BBD85A002656F3 /* Debug */,
+				CA77AD8720BBD85A002656F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA77AD8820BBD85A002656F3 /* Build configuration list for PBXNativeTarget "PictureStereoscopicDisplayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA77AD8920BBD85A002656F3 /* Debug */,
+				CA77AD8A20BBD85A002656F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA77AD4E20BBD858002656F3 /* Project object */;
+}
