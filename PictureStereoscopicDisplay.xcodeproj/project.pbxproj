@@ -15,6 +15,9 @@
 		CA77AD6920BBD859002656F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA77AD6820BBD859002656F3 /* main.m */; };
 		CA77AD7320BBD85A002656F3 /* PictureStereoscopicDisplayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA77AD7220BBD85A002656F3 /* PictureStereoscopicDisplayTests.m */; };
 		CA77AD7E20BBD85A002656F3 /* PictureStereoscopicDisplayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA77AD7D20BBD85A002656F3 /* PictureStereoscopicDisplayUITests.m */; };
+		CA77AD9120BBD894002656F3 /* LineLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CA77AD8D20BBD894002656F3 /* LineLayout.m */; };
+		CA77AD9220BBD894002656F3 /* UIImageView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = CA77AD8E20BBD894002656F3 /* UIImageView+CornerRadius.m */; };
+		CA77AD9320BBD894002656F3 /* LineCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA77AD8F20BBD894002656F3 /* LineCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		CA77AD7920BBD85A002656F3 /* PictureStereoscopicDisplayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PictureStereoscopicDisplayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA77AD7D20BBD85A002656F3 /* PictureStereoscopicDisplayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureStereoscopicDisplayUITests.m; sourceTree = "<group>"; };
 		CA77AD7F20BBD85A002656F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA77AD8B20BBD893002656F3 /* LineLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineLayout.h; sourceTree = "<group>"; };
+		CA77AD8C20BBD893002656F3 /* UIImageView+CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CornerRadius.h"; sourceTree = "<group>"; };
+		CA77AD8D20BBD894002656F3 /* LineLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineLayout.m; sourceTree = "<group>"; };
+		CA77AD8E20BBD894002656F3 /* UIImageView+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CornerRadius.m"; sourceTree = "<group>"; };
+		CA77AD8F20BBD894002656F3 /* LineCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineCollectionViewCell.m; sourceTree = "<group>"; };
+		CA77AD9020BBD894002656F3 /* LineCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineCollectionViewCell.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				CA77AD5A20BBD858002656F3 /* AppDelegate.m */,
 				CA77AD5C20BBD858002656F3 /* ViewController.h */,
 				CA77AD5D20BBD858002656F3 /* ViewController.m */,
+				CA77AD9020BBD894002656F3 /* LineCollectionViewCell.h */,
+				CA77AD8F20BBD894002656F3 /* LineCollectionViewCell.m */,
+				CA77AD8B20BBD893002656F3 /* LineLayout.h */,
+				CA77AD8D20BBD894002656F3 /* LineLayout.m */,
+				CA77AD8C20BBD893002656F3 /* UIImageView+CornerRadius.h */,
+				CA77AD8E20BBD894002656F3 /* UIImageView+CornerRadius.m */,
 				CA77AD5F20BBD858002656F3 /* Main.storyboard */,
 				CA77AD6220BBD859002656F3 /* Assets.xcassets */,
 				CA77AD6420BBD859002656F3 /* LaunchScreen.storyboard */,
@@ -263,8 +278,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA77AD5E20BBD858002656F3 /* ViewController.m in Sources */,
+				CA77AD9120BBD894002656F3 /* LineLayout.m in Sources */,
 				CA77AD6920BBD859002656F3 /* main.m in Sources */,
 				CA77AD5B20BBD858002656F3 /* AppDelegate.m in Sources */,
+				CA77AD9320BBD894002656F3 /* LineCollectionViewCell.m in Sources */,
+				CA77AD9220BBD894002656F3 /* UIImageView+CornerRadius.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +454,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 73AV8S2YU9;
 				INFOPLIST_FILE = PictureStereoscopicDisplay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +472,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 73AV8S2YU9;
 				INFOPLIST_FILE = PictureStereoscopicDisplay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
